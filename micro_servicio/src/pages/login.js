@@ -37,7 +37,7 @@ const Login = () => {
 
         try {
             const captchaToken = captchaValue; // Obtener el token del reCAPTCHA desde el estado
-            const response = await axios.post("/api/auth/login", { ...credentials, captchaToken });
+            const response = await axios.post("/api/auth/login1", { ...credentials, captchaToken });
             if (response.status === 200) {
                 router.push("/inicio");
             }

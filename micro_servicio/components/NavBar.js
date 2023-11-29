@@ -33,7 +33,7 @@ function NavBar() {
 
     const logout = async () => {
         try {
-            await axios.get("/api/auth/logout");
+            await axios.get("/api/auth/logout1");
         } catch (error) {
             console.error(error.message);
         }
@@ -91,22 +91,9 @@ function NavBar() {
                                 </button>
                             </Link>
                         </li>
-                        {/* {loggedIn && (
-                            <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" href="/perfil">
-                                    <button
-                                        className="btn btn-sm btn-outline-secondary"
-                                        type="button"
-                                    >
-                                        Perfil
-                                    </button>
-                                </Link>
-                            </li>
-                        )} */}
-
                         {loggedIn ? (
                             <li className="nav-item">
-                                <Link className="nav-link" href="/api/auth/logout">
+                                <Link className="nav-link" href="/api/auth/logout" onClick={logout}>
                                     <button
                                         className="btn btn-sm btn-outline-secondary"
                                         type="button">
