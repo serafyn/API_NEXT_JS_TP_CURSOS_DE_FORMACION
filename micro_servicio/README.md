@@ -25,4 +25,4 @@ AUTH0_ISSUER_BASE_URL='https://dev-tvhzuwz6wy0tzwf1.us.auth0.com'
 AUTH0_CLIENT_ID='7wb8xw1LJK62y8RacImYDdkRqkBFuFda'
 AUTH0_CLIENT_SECRET='PE_nkDu_wfNk5UFoZqUmKWpWVcVlsRwlzLFx5vhFcjYF39OVXOqY_kGM3BTFBjjB'
 AUTH0_AUDIENCE=
-AUTH0_SCOPE='openid profile'
+AUTH0_SCOPE='openid profile' 
