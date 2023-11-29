@@ -34,6 +34,7 @@ export default function Index() {
               <li>{user.nickname}</li>
               <li>{user.name}</li>
               <li>{user.sub}</li>
+              <li><a href="/api/auth/logout">Cerrar sesión</a></li>
             </ul>
           )}
         </Row>
